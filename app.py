@@ -26,9 +26,9 @@ def bhluti():
 
 frettir = [
     ["0","KIM","  KIM JONG un fanst í kjallara hvítahúsins sumir halda að trump hafi sneakað honum inn","Jonni Karl Arm"],
-    ["1","Köttur fastur upp í tré","Köttur að nafninu Grétar festist uppi í tré í miðbæ Reykjavíkur. Hann hafði fundið lykt af nýbökuðu Lasagna og hafði ákveðið að klifra upp tréð fyrir utan gluggann þar sem Lasagnað hafði verið búið til. Eins og sést hér á myndinni gekk það ekki vel og Grétar festist. Það að koma Grétari úr trénu var samt erfiðara sagt en gert vegna þess að hann myndi ekki fara án þess að fá smá bita af Lasagnanu, sem honum var gefið að lokum.","Þráinn Gunnlaugsson"],
-    ["2","Er Þriðja heimstyrjöldinn að byrja????","Það er haldið að bandaríkinn gætu hafað byrjar þriðju heimsstyrjöldina. Það var gólf leikur milli forseta bandaríkjanna og forseta kína. Forseti bandaríkjanna vann leikinn auðveldlega lol og rústaði þessum kína manni. Forseti kína eftir þetta tap gerði stórt rant á twitter um hann og hótaði sprengjum. ","Jónas Jón Jónatansson"],
-    ["3","Bílslys á reykjarvíkurveginum við miklubraut","Núna í morgun var bílslys á reykjarvíkurveginum við miklubraut. Það gerðist vegna bílstjóri var í símanum sínum og fór yfir á rauðu ljósi. Sá maður var að setja heimsmet í símatölvuleiknum Geometry dash á meðan hann var að keyra. það voru 3 meiddir í slysinu og þau eru öll upp á spítala. ef þú vilt sjá fyrra heimsmet hjá manninum Þá geturu horft á það hér:https://www.youtube.com/watch?v=TYU-G-MQ3dY","Kári Trevor"]
+    ["1","Ísland tapar","lenska karlalandsliðið í körfubolta er dottið úr leik a Eurobasket þrátt fyrir ágætis spretti inn a milli. Ísland spilaði lokaleik sinn á mótinu fyrir troðfullri höll gegn heimamönnum Finnum.","Pétur álson"],
+    ["2","Snjór í september","Það datt inn heilmikill snjór á Siglufirði og komust íbúar ekki úr húsi vegna snjófalls 330cm af snjó féllu í nótt ","Stefanía kristjansen"],
+    ["3","Ólafía stendur sig vel","Ólafía er komin í 65 sæti peningalistans og hefur því tryggt sér keppnisrétt á LPG mótaröðinni á komandi keppnistimabili.","Pumba"]
 ]
 @app.route("/frett/<int:id>")
 def news(id):
